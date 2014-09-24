@@ -47,6 +47,61 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
+
+    .state('app.isat', {
+      url: "/isat",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/isat.html"
+        }
+      }
+    })
+
+    .state('app.xl', {
+      url: "/xl",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/xl.html"
+        }
+      }
+    })
+
+    .state('app.three', {
+      url: "/three",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/three.html"
+        }
+      }
+    })
+
+    .state('app.smartfren', {
+      url: "/smartfren",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/smartfren.html"
+        }
+      }
+    })
+
+    .state('app.telkom', {
+      url: "/telkom",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/telkom.html"
+        }
+      }
+    })
+
+    .state('app.esia', {
+      url: "/esia",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/esia.html"
+        }
+      }
+    })
+
     .state('app.playlists', {
       url: "/playlists",
       views: {
